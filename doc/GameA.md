@@ -4,7 +4,7 @@
 
 1. As a part of the hackathon submission, TILE Games platform includes **two original, custom-developed, Oasis-themed, P2E Crypto Games,** both developed using JavaScript. So, within this submission, there are actually **three projects, a GameFi platform and two P2E games.**
 2. The major design requirements for the games were to be **playable, bug free, open-source** (so that the team can check for security) and that the games contain standard code snippets that are called to interact with the Oasis network through the TILE Games Platform.
-3. The first built-in crypto game is [**Crypto Shooter**](https://github.com/tunahandanis/demo-aim-game), where crypto enthusiasts practice their reflex motor skills by catching crypto coins (+1 point each), but avoiding fiat currencies (-1 point each).
+3. The first built-in crypto game is [**Crypto Shooter**](https://github.com/tunahandanis/demo-aim-game), where crypto enthusiasts practice their reflex motor skills by catching crypto coins (+1 point each), but avoiding fiat currencies (-1 point each). One of the crypto coins to catch in the game is, of course, ROSE of Oasis Network.
 
 The Gamer can convert Game Points to TILE Tokens on the home page.
 
