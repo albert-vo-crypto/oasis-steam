@@ -1,14 +1,7 @@
 import './Footer.scss';
 
-import { DollarCircleFilled } from '@ant-design/icons';
-import { contractABI, contractAddress } from 'abi/contract';
-import { Button } from 'antd';
 import Text from 'antd/lib/typography/Text';
-import { ethers } from 'ethers';
-import React, { useState, useEffect } from 'react';
-import { handleError, handleSuccess } from 'utils/common';
-
-import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 
 export const Footer = () => {
   const [recentAd, setRecentAd] = useState<any>();
@@ -32,7 +25,7 @@ export const Footer = () => {
 
       {recentAd && (
         <div className="oasis-ad" style={{ textAlign: 'center' }}>
-          <h3 style={{ fontWeight: 600 }}>{recentAd.advertisementTitle}</h3>
+          <h3 style={{ fontWeight: 600 }}>{recentAd.advertisementDescription}</h3>
           <a
             href={recentAd.advertisementUrl}
             title={recentAd.advertisementUrl}
