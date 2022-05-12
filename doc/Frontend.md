@@ -7,7 +7,7 @@
 
 ### Process Flow
 
-Assumption: In the current implementation, every Player is also a potential Advertiser. So, these two menus will be displayed to all. Governor menu should displayed only to those connected wallets that have the Governor NFT; however, that feature is not yet implemented.
+Assumption: In the current implementation, every Player is also a potential Advertiser. So, these two menus will be displayed to all. Governor menu should displayed only to those connected wallets that have the Governor NFT; however, that feature is _not yet implemented._
 
 1. **Player** connects the wallet to the platform.
 2. **Player** plays the games on the platform.
