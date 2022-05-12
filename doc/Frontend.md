@@ -7,7 +7,7 @@
 
 ### Process Flow
 
-Assumption: In the current implementation, every Player is also a potential Advertiser. So, these two menus will be displayed to all. Governor menu is displayed only to those connected wallets that have the Governor NFT.
+Assumption: In the current implementation, every Player is also a potential Advertiser. So, these two menus will be displayed to all. Governor menu should displayed only to those connected wallets that have the Governor NFT; however, that feature is not yet implemented.
 
 1. **Player** connects the wallet to the platform.
 2. **Player** plays the games on the platform.
@@ -15,14 +15,14 @@ Assumption: In the current implementation, every Player is also a potential Adve
 4. **Player** exchanges some of his TILE for ROSE.
 5. **Player** checks his account page for information on his balance and transaction history.
 6. **Advertiser** checks his account page for information on his previous advertisement bids.
-7. **Advertiser** submits new advertisement bid.
+7. **Advertiser** submits new advertisement bid.  _(Partially implemented)_
 8. **Governor** connects wallet to the platform.
-9. **Governor** votes on the pending advertisement bid. (Partially implemented)
+9. **Governor** votes on the pending advertisement bid. _(Partially implemented)_
 10. **Advertiser** checks and sees the result of voting for his advertisement bid.
 11. **Advertiser** converts ROSE in his account to TILE (ex: 101 ROSE).
-12. **Advertiser** purchases the advertisement by paying 100 TILE.  (Partially implemented)
+12. **Advertiser** purchases the advertisement by paying 100 TILE.  _(Partially implemented)_
 13. New **advertisement is displayed** on all pages of the platform.
-14. **Rewards are distributed** to Governors and deposited in the dapp vault. (Partially implemented)
+14. **Rewards are distributed** to Governors and deposited in the dapp vault. _(Partially implemented)_
 
 ![Process Flow](./img/Slide04.png) 
 
